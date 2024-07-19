@@ -20,12 +20,12 @@ val DEPENDENCY_BOMS = listOf(
   "io.zipkin.reporter2:zipkin-reporter-bom:3.4.0",
   "org.assertj:assertj-bom:3.26.3",
   "org.junit:junit-bom:5.10.3",
-  "org.testcontainers:testcontainers-bom:1.19.8",
+  "org.testcontainers:testcontainers-bom:1.20.0",
   "org.snakeyaml:snakeyaml-engine:2.7"
 )
 
 val autoValueVersion = "1.11.0"
-val errorProneVersion = "2.28.0"
+val errorProneVersion = "2.29.1"
 val jmhVersion = "1.37"
 // Mockito 5.x.x requires Java 11 https://github.com/mockito/mockito/releases/tag/v5.0.0
 val mockitoVersion = "4.11.0"
